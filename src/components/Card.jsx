@@ -25,7 +25,7 @@ function Card() {
     const budget = parseInt(budgetRef.current.value, 10);
 
     if (!title || !budget) {
-      alert('입력시발아');
+      alert('');
       return false;
     }
 
@@ -55,7 +55,7 @@ function Card() {
     const id = idRef.current;
 
     if (!title || !budget) {
-      alert('입력시발아');
+      alert('');
       return false;
     }
 
